@@ -28,14 +28,19 @@ for (let i = 0; i < users.length; i++) {
 // heading.append(paragraph);
 // document.body.appendChild(heading);
 // !object Methods
- const users1 = {
-  name : "Azizbek",
-  surname : "Abduhakimov",
-  age: 19,
-  fullname(middleName){
-    return this.name + "" + this.surname +""+ middleName;
-  }
- }
+//  const users1 = {
+//   name : "Azizbek",
+//   surname : "Abduhakimov",
+//   age: 19,
+//   fullname(middleName){
+//     return this.name + "" + this.surname +""+ middleName;
+//   }
+//  }
 
- let value = users1.fullname("SIAKDHJHJS")
- console.log(value)
+//  let value = users1.fullname("SIAKDHJHJS")
+//  console.log(value)
+// padStart and padEnd
+let user1 = "Azizbek"
+console.log(user1.padStart(  user1.length + 2, "1."    ))
+let user2 = "Azizbek"
+console.log(user.padEnd(  user1.length + 2, "1."    ))
