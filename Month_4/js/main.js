@@ -21,9 +21,21 @@ for (let i = 0; i < users.length; i++) {
 // div.append(title)
 // document.body.appendChild(div)
 
-let heading = document.createElement("h1");
-let paragraph = document.createElement("p");
-paragraph.textContent = "oaojsfdnsjas";
-paragraph.classList = "pra";
-heading.append(paragraph);
-document.body.appendChild(heading);
+// let heading = document.createElement("h1");
+// let paragraph = document.createElement("p");
+// paragraph.textContent = "oaojsfdnsjas";
+// paragraph.classList = "pra";
+// heading.append(paragraph);
+// document.body.appendChild(heading);
+// !object Methods
+ const users1 = {
+  name : "Azizbek",
+  surname : "Abduhakimov",
+  age: 19,
+  fullname(middleName){
+    return this.name + "" + this.surname +""+ middleName;
+  }
+ }
+
+ let value = users1.fullname("SIAKDHJHJS")
+ console.log(value)
