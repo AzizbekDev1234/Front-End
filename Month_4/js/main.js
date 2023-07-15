@@ -40,7 +40,9 @@ for (let i = 0; i < users.length; i++) {
 //  let value = users1.fullname("SIAKDHJHJS")
 //  console.log(value)
 // padStart and padEnd
-let user1 = "Azizbek"
-console.log(user1.padStart(  user1.length + 2, "1."    ))
-let user2 = "Azizbek"
-console.log(user.padEnd(  user1.length + 2, "1."    ))
+// let user1 = "Azizbek"
+// console.log(user1.padStart(  user1.length + 2, "1."    ))
+// let user2 = "Azizbek"
+// console.log(user.padEnd(  user1.length + 2, "1."    ))
+
+// ! for loop , opbject methods , creating elements , padStart vs padEnd
